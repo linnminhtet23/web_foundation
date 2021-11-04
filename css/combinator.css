@@ -1,0 +1,36 @@
+
+/* div{
+    color: red;
+} */
+/* tag to tag */
+/* div span{
+    font-size: 20px;
+    color: orange;
+} */
+
+/* tag to tags */
+div span p{
+    color: aquamarine;
+}
+
+/* tag to class  */
+/* div span small.name{
+    color: blue
+} */
+
+/* tag to multiclass */
+div .name, .age, .grade{
+    color: violet;
+}
+
+/* div .name .age {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: tomato;
+} */
+
+/* class to class */
+.bank .money{
+    color: green;
+}
+

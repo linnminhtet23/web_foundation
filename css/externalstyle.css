@@ -1,0 +1,38 @@
+/* selectors */
+/* element selector */
+/* single selector */
+/* p{
+    color: red;
+} */
+
+/* Universal Selector */
+/* *{
+    color: aqua;
+} */
+/* group selector */
+h1, h2, h3{
+    color: red;
+    font-size: 20px;
+}
+
+/* id selector */
+#name{
+    font-size: 20px;
+}
+
+#name, #job{
+    color: violet;
+}
+
+/*class selector  */
+.redcolor{
+color: red;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.redcolor, .font{
+    font-size: 40px;
+}

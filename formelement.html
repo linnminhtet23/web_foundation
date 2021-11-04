@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Element</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Login Form</legend>
+      <form action="" method="" enctype="multipart/formdata">
+        <label for="firstname">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          class=""
+          placeholder="Enter your first name"
+          autocomplete="off"
+          minlength="5"
+          maxlength="10"
+        />
+        <br />
+        <label for="lastname">Last Name</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          class=""
+          placeholder="Enter your lastname"
+        />
+        <br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class=""
+          placeholder="Enter your email"
+          autocomplete="off"
+        />
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class=""
+          placeholder="Enter your password"
+          required
+        />
+        <br />
+        <label for="age">Age</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          class=""
+          placeholder="Enter your age"
+        />
+        <br />
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="genderm" class="" value="1" />
+        <label for="genderm">Male</label>
+        <input type="radio" name="gender" id="genderf" class="" value="2" />
+        <label for="genderf">Female</label>
+        <br />
+        <label>Choose your job</label>
+        <input type="checkbox" name="job" class="" value="dev" /><label
+          >Developer</label
+        >
+        <input type="checkbox" name="job" class="" value="fin" /><label
+          >Finance</label
+        >
+        <input type="checkbox" name="job" class="" value="mang" /><label
+          >Manager</label
+        >
+        <br />
+        <label for="country">County</label>
+        <select name="country" id="country" multiple>
+          <option value="mm">Myanmar</option>
+          <option value="sg" selected>Singapore</option>
+          <option value="us">America</option>
+          <option value="eng">England</option>
+          >
+        </select>
+        <br />
+        <!-- <input type="hidden" name="test" id="test" value="test" placeholder="test"/> -->
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" class="" />
+        <br />
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time" class="" />
+        <br />
+        <label for="datetime">Time</label>
+        <input type="datetime-local" name="datetime" id="datetime" class="" />
+        <br />
+        <label for="profile">Add your profile</label>
+        <input
+          type="file"
+          name="profile"
+          id="profile"
+          class=""
+          accept="image/png, image/jpeg"
+          multiple
+        />
+        <br />
+        <input type="reset" name="reset" id="reset" class="" value="Cancel" />
+        <input
+          type="submit"
+          name="submit"
+          id="submit"
+          class=""
+          value="Register"
+        />
+        <button type="submit" name="btn" id="btn" class="">Sign in</button>
+      </form>
+    </fieldset>
+
+    <iframe
+      src="tabletag.html"
+      width="500px"
+      height="300px"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
