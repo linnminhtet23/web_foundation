@@ -1,0 +1,68 @@
+:root{
+    --rc:red;
+    --gc:green;
+    --bc: blue;
+    --oc: orange;
+    --vc: violet;
+}
+
+.mydiv1 .b1{
+    background-color: var(--gc);
+    color: #fff;
+
+    display: block;
+    width: 200px;
+    height:  200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.mydiv1 .b2{
+    background-color: var(--gc);
+
+    display: block;
+    width: 200px;
+    height:  200px;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color:var(--oc);
+
+    float: left;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color:var(--rc);
+
+    float: left;
+}
+
+.div3{
+    width: 300px;
+    height: 300px;
+    background-color:var(--gc);
+
+    float: left;
+}
+
+.div4{
+    width: 400px;
+    height: 400px;
+    background-color:var(--bc);
+
+    float: left;
+}
+
+
+.div5{
+    width: 500px;
+    height: 500px;
+    background-color:var(--vc);
+
+    float: left;
+}

@@ -1,0 +1,44 @@
+.div1{
+    width: 500px;
+    height: 100px;
+    background-color: green;
+}
+
+/* .div1:first-child{
+    background-color: red;
+    color: white;
+}
+
+.div1:last-child{
+    background-color: yellow;
+} */
+
+/* .div1:first-of-type{
+    background-color: tomato;
+} */
+
+/* .div1:last-of-type{
+    background-color: violet;
+} */
+
+/* .div1:nth-of-type(3){
+    background-color: aqua;
+} */
+
+/* .div1:nth-of-type(odd){
+    background-color: blue;
+} */
+
+/* .div1:nth-child(odd){
+    background-color: brown;
+} */
+
+
+.div1:nth-of-type(2):hover{
+    width: 100px;
+    transition: linear 1s;
+}
+
+.testinglink:visited{
+    color: red;
+}
